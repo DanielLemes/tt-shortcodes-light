@@ -1,0 +1,34 @@
+/*===================================================
+                    TT SHORTCODES
+* admin styles 0.1.0 jan/17
+* author l3m35 - le.mes@hotmail.com
+* https://www.tutoriart.com.br/?p=8941
+* GPL3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
+=====================================================*/
+/* set FA for all menu icons */
+.mce-menu-has-icons i.mce-ico:before {font: 15px FontAwesome;}
+
+/* box shortcodes */
+.mce-i-cube:before {
+	font: 15px FontAwesome;
+    content: '\f1b2'; /* cubo */
+    position: relative;
+    top: -2px;
+}
+
+/* fix colorbox button icon */
+.mce-colorbox i {
+    border-top: 1px solid #c5c5c5 !important;
+    position: relative;
+    top: -6px;
+}
+
+/* folder icon */
+.mce-tt .mce-ico:before {
+    font: 14px FontAwesome !important;
+    position: relative;
+    top: -10%;
+}
+.mce-tt.mce-active .mce-ico:before {
+	content: "\f07c";/* FA open folder */
+}
