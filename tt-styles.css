@@ -1,0 +1,63 @@
+/*===================================================
+                    TT SHORTCODES
+* frontend styles 0.1.0 jan/17
+* author l3m35 - le.mes@hotmail.com
+* https://www.tutoriart.com.br/?p=8941
+* GPL3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
+=====================================================*/
+/* Boxes shortcode */
+.sbox {
+	line-height: 1.85em;
+	margin: 0 0 35px;
+	color: #2B2B2B;
+	padding: 25px;
+	text-align: center;
+	background-color: rgb(248, 248, 248);
+	box-shadow: 0 1px 0px #E4E4E4;
+}
+.sbox .embed-container {margin: 0 0 6px 0;}
+.sbox p:last-child {margin-bottom: 0;}
+.sbox blockquote p,.sbox blockquote {margin:0 !important}
+.sbox blockquote {position:relative;left:20px;}
+.caixa-gray {background: #ebebeb;box-shadow: 0 4px 0 #d1d1d1}
+.caixa-red {background: #ffd3d3;box-shadow: 0 4px 0 #f19c9c}
+.caixa-green {background: #e9f7da;box-shadow: 0 4px 0 #b1d59c}
+.caixa-yellow {background: #fff9cb;box-shadow: 0 4px 0 #FBDE78;}
+.asbox {
+	height: auto;
+	margin: 0 0 30pX;
+	position: relative;
+	color: #2B2B2B;
+	padding: 25px;
+	text-align: center;
+	BACKGROUND: #f3f3f3;
+	BORDER-BOTTOM: 4PX SOLID #eaeaea;
+}
+.asbox .hideshow {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 3px 5px 7px 6px;
+	font: 14px arial black;
+	background: #d4d4d4;
+	color: #f3f3f3;
+	cursor: pointer;
+}
+.asbox.alerta-yellow .hideshow {color:#FFF9CB; background-color:#FCDE8A;}
+.asbox.alerta-yellow .hideshow:hover {background-color: #FAD56C; cursor:pointer}
+.asbox.alerta-green .hideshow {color:#e9f7da; background-color:#b1d59c;}
+.asbox.alerta-green .hideshow:hover {background-color: #9CC585;cursor:pointer}
+.asbox.alerta-red .hideshow {color:#ffd3d3; background-color:#f19c9c;}
+.asbox.alerta-red .hideshow:hover {background-color: #D98686;cursor:pointer}
+.caixa-cabeca {
+	font: 100 1.5em 'Impact';
+	margin: 0 0 14px 0;
+	color: #424242;
+}
+.caixa-cabeca i {display: block;font-size: 1.45em;}
+.caixa-cabeca div {margin:12px 0}
+
+.sbox p:last-child, .toggleDiv-container p:last-child, .box p:last-child {margin-bottom:0}
+.sbox .embed-container {margin: 0 0 6px}
