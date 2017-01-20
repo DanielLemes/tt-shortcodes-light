@@ -20,7 +20,7 @@ O que você precisa para usar esta versão:
 
 A instalação é manual:
 
-1. Copie a pasta "admin" para a pasta do seu tema filho (no caso, a "twentyseventeen-child")
+1. Renomeie a pasta "tt-shortcodes-light-master" baixada para "admin", e coloque-a dentro da pasta do seu tema filho (no caso, a "twentyseventeen-child")
 2. Abra o arquivo functions.php do tema filho e insira:
 ```
 require_once('admin/tt-functions.php');
